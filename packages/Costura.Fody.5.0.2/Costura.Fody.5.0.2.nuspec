@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Costura.Fody</id>
+    <version>5.0.2</version>
+    <title>Costura.Fody</title>
+    <authors>geertvanhorrik,simoncropp</authors>
+    <owners>geertvanhorrik,simoncropp</owners>
+    <licenseUrl>https://www.nuget.org/packages/Costura.Fody/5.0.2/license</licenseUrl>
+    <projectUrl>https://github.com/Fody/Costura</projectUrl>
+    <iconUrl>https://api.nuget.org/v3-flatcontainer/costura.fody/5.0.2/icon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Fody add-in for embedding references as resources.</description>
+    <summary />
+    <tags>ILMerge ILWeaving Embed Resource Fody Cecil</tags>
+    <dependencies>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Fody" version="6.3.0" />
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
